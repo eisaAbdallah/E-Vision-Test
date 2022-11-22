@@ -13,19 +13,29 @@ i should either create an api for producer with help of the springboot restcontr
                          -------------******-----------
                          Deliverables Contents
 first  i creatred the the admin conf of kafka 
+
 and added in the properties file the property spring.autoconfigure.exclude to disable auto datasource configuration 
+
 i created three apis get http methods 
+
 1- /prodcer to send data to topics
+
 2- /starter-consumer to  consime data in the topic of the lessthan 1000 amount                        
+
 3- /dollar-consumer to  consime data in the topic of the greaterthan 1000 amount  and change it to $   
+
 4-i made csv parsing usinfg open parser of the csv with assigned class named with ParserCSV enclosed with the three metioned properties
 
                           -------------******-----------
                                 used  Tools:
 
 Ide Intelliji
+
 JDK 11
+
 maven V3.6.3 buiding tool
+
 kafka dependencies(client/spring-kafka) v 2.6.0
+
 open csv dependency  V 5.3 
 

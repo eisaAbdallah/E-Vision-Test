@@ -21,8 +21,8 @@ i created three apis get http methods
 4-i made csv parsing usinfg open parser of the csv with assigned class named with ParserCSV enclosed with the three metioned properties
 
                           -------------******-----------
+                                used  Tools:
 
-used  Tools:
 Ide Intelliji
 JDK 11
 maven V3.6.3 buiding tool

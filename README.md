@@ -11,6 +11,15 @@ And then i will consume this topics and it`s data stored in the partitions and w
 i should either create an api for producer with help of the springboot restcontroller And two apis for the consumers to write the file
                          
                          -------------******-----------
+first  i creatred the the admin conf of kafka 
+and added in the properties file the property spring.autoconfigure.exclude to disable autodatasiource configuration 
+i created three apis get http methods 
+1- /prodcer to send data to topics
+2- /starter-consumer to  consime data in the topic of the lessthan 1000 amount                        
+3- /dollar-consumer to  consime data in the topic of the greaterthan 1000 amount  and change it to $   
+4-i made csv parsing usinfg open parser of the csv with assigned class named with ParserCSV enclosed with the three metioned properties
+
+                          -------------******-----------
 
 used  Tools:
 Ide Intelliji

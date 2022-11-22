@@ -1,0 +1,21 @@
+# E-Vision-Test
+
+my solution is to build a parser of csv which are mapped with a java object that can be used in java code to the 
+
+amount and mak the calculation on change to dollar and the 10 % calculation
+
+And Then i can send these results to the each  topic created for each calculation Name  them (topic1,topic2 )  for example to be stored on kafka in memeory storage
+
+And then i will consume this topics and it`s data stored in the partitions and write every result or topic to files on the system directories through file writer class
+
+i should either create an api for producer with help of the springboot restcontroller And two apis for the consumers to write the file
+                         
+                         -------------******-----------
+
+used  Tools:
+Ide Intelliji
+JDK 11
+maven V3.6.3 buiding tool
+kafka dependencies(client/spring-kafka) v 2.6.0
+open csv dependency  V 5.3 
+

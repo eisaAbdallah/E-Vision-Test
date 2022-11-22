@@ -12,7 +12,7 @@ i should either create an api for producer with help of the springboot restcontr
                          
                          -------------******-----------
 first  i creatred the the admin conf of kafka 
-and added in the properties file the property spring.autoconfigure.exclude to disable autodatasiource configuration 
+and added in the properties file the property spring.autoconfigure.exclude to disable auto datasource configuration 
 i created three apis get http methods 
 1- /prodcer to send data to topics
 2- /starter-consumer to  consime data in the topic of the lessthan 1000 amount                        

@@ -1,0 +1,4 @@
+com\example\Test\KafkaConf.class
+com\example\Test\ParserCSV.class
+com\example\Test\TestApplication.class
+com\example\Test\KafkaController.class

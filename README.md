@@ -11,6 +11,7 @@ And then i will consume this topics and it`s data stored in the partitions and w
 i should either create an api for producer with help of the springboot restcontroller And two apis for the consumers to write the file
                          
                          -------------******-----------
+                         Deliverables Contents
 first  i creatred the the admin conf of kafka 
 and added in the properties file the property spring.autoconfigure.exclude to disable auto datasource configuration 
 i created three apis get http methods 
